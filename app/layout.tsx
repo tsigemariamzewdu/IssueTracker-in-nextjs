@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="winter">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="p-5"
       >
         <Theme>
         <NavBar/>
