@@ -4,10 +4,12 @@ import { Button, Table } from '@radix-ui/themes'
 import Link from 'next/link'
 import prisma from '@/prisma/client'
 import IssueStatusBadeg from '../component/IssueStatusBadeg'
+import delay from "delay"
 
 const page = async() => {
 
   const issues=await prisma.issue.findMany()
+  await delay(200)
   return (
     <div>
       <div className='mb-5'>
