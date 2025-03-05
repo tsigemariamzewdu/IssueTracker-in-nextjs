@@ -14,8 +14,6 @@ export default {
       },
     },
   },
-  plugins: [require ("daisyui")],
-  daisyui:{
-    themes:["winter"]
-  }
+  plugins: [require ("@tailwindcss/typography")],
+
 } satisfies Config;
