@@ -6,7 +6,7 @@ import React, { PropsWithChildren, ReactNode } from 'react'
 const ErrorMessage = ({children}:PropsWithChildren) => {
     if(!children) return null
   return (
-    <p>{children}</p>
+    <p className='text-red-500'>{children}</p>
   )
 }
 
