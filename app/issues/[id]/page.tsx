@@ -5,8 +5,8 @@ import { notFound } from 'next/navigation'
 import ReactMarkdown from "react-markdown"
 import {Pencil2Icon} from "@radix-ui/react-icons"
 import Link from 'next/link'
-import EditIssueButton from './edit/EditIssueButton'
-import IssueDetails from './edit/IssueDetails'
+import EditIssueButton from './EditIssueButton'
+import IssueDetails from './IssueDetails'
 
 
 
