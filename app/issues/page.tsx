@@ -1,10 +1,11 @@
 
 import React from 'react'
 import { Table } from '@radix-ui/themes'
-import Link from '../component/Link'
+import {Link,IssueStatusBadeg} from "@/app/component"
+
 
 import prisma from '@/prisma/client'
-import IssueStatusBadeg from '../component/IssueStatusBadeg'
+
 import delay from "delay"
 import IssueActions from './IssueActions'
 
